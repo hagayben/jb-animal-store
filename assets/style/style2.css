@@ -1,0 +1,11 @@
+main>div{
+    display: grid;
+    grid-template-columns: repeat(8 1fr) ;
+    grid-template-rows: 20px 80px 20px;
+    width: 290px;
+    height: 100px;
+    text-align: center;
+}
+div{
+    border: 1px solid black;
+}
